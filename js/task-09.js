@@ -8,7 +8,7 @@ function getRandomHexColor() {
 }
 
 function changeColorEvent(event) {
-  span.textContent = getRandomHexColor;
+  span.textContent = getRandomHexColor();
   if (!event.target.classList.contains('change-color')) {
     return;
   }
